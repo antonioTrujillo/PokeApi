@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="pokeapi.css">
+</head>
+<body>
+    <div>
+        <h1>Pokedex</h1>
+        <div class="pokecard">
+        <div class="centerInput">
+            <input type="text" id="input"placeholder="Introduce número de pokemon">
+
+            <button id="button">Buscar</button>
+        </div>
+            <h2 id="name"></h2>
+            <p>Pokedex num: <span class="NumPokedex"></span> </p>
+            <p >Tipo: <span class="type"></span></p>
+            <p class="description"></p>
+
+        </div>
+        <div>
+            <p class="types"></p>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="pokeapi.js"></script>
+</body>
+</html>
